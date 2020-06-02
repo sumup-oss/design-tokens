@@ -14,7 +14,6 @@
  */
 
 import { createMediaQueries } from '../utils';
-
 import {
   Spacings,
   IconSizes,
