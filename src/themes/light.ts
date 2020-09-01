@@ -17,29 +17,29 @@ import { Colors } from '../types';
 
 export const type = 'light';
 
-const white = '#FFFFFF';
-const black = '#0F131A';
+const white = '#FFF';
+const black = '#000';
 
 // NOTE: The neutral color names & values don't match up with what's in Figma.
 // Fixing this would be a big breaking change, so we're leaving it as is.
 const neutrals = {
   n100: '#FAFBFC',
-  n200: '#EEF0F2',
-  n300: '#D8DDE1',
-  n500: '#9DA7B1', // n400 in Figma
-  n700: '#5C656F', // n500 in Figma
-  n800: '#323E49', // n700 in Figma
-  n900: '#212933',
+  n200: '#F5F5F5',
+  n300: '#E6E6E6',
+  n500: '#999999',
+  n700: '#333333',
+  n800: '#1A1A1A',
+  n900: '#000000',
 };
 
 const blues = {
-  b100: '#EDF4FC',
+  b100: '#F0F6FF',
   b200: '#DAEAFF',
   b300: '#AFD0FE',
   b400: '#7FB5FF',
-  b500: '#3388FF',
-  b700: '#1760CE',
-  b900: '#003C8B',
+  b500: '#3063E9',
+  b700: '#234BC3',
+  b900: '#1A368E',
 };
 
 const greens = {
@@ -82,9 +82,9 @@ const reds = {
   r100: '#F4CBCB',
   r200: '#EDA2A2',
   r300: '#EA7A7A',
-  r500: '#DB4D4D',
-  r700: '#B22828',
-  r900: '#7F1818',
+  r500: '#D23F47',
+  r700: '#B22426',
+  r900: '#941618',
 };
 
 const primary = {
@@ -102,9 +102,9 @@ const misc = {
   overlay: 'rgba(12, 15, 20, 0.21)',
   bodyBg: neutrals.n100,
   bodyColor: black,
-  danger: reds.r500,
-  success: greens.g700,
-  warning: yellows.y500,
+  danger: '#D23F47',
+  success: '#138849',
+  warning: '#F5C625',
 };
 
 export const colors: Colors = {
