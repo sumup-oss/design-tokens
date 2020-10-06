@@ -23,13 +23,13 @@ const black = '#000';
 // NOTE: The neutral color names & values don't match up with what's in Figma.
 // Fixing this would be a big breaking change, so we're leaving it as is.
 const neutrals = {
-  n100: '#FAFBFC',
-  n200: '#F5F5F5',
-  n300: '#E6E6E6',
-  n500: '#999999',
-  n700: '#333333',
-  n800: '#1A1A1A',
-  n900: '#000000',
+  n100: '#F5F5F5',
+  n200: '#E6E6E6',
+  n300: '#CCC',
+  n500: '#999',
+  n700: '#666',
+  n800: '#333',
+  n900: '#1A1A1A',
 };
 
 const blues = {
@@ -55,7 +55,7 @@ const violets = {
   v100: '#E9CFF2',
   v200: '#D7A9DC',
   v300: '#C781C9',
-  v500: '#B54DB3',
+  v500: '#CA58FF',
   v700: '#8928A2',
   v900: '#5F1D6B',
 };
@@ -63,7 +63,7 @@ const violets = {
 const oranges = {
   o100: '#EFD0BB',
   o200: '#F7B97C',
-  o300: '#F7941D',
+  o300: '#ED7000',
   o500: '#CE6C0B',
   o700: '#8E4503',
   o900: '#66391B',
