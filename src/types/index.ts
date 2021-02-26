@@ -14,75 +14,258 @@
  */
 
 export type Colors = {
+  // Semantic
+  primary: string;
   white: string;
   black: string;
-  // Neutrals
-  n100: string;
-  n200: string;
-  n300: string;
-  n500: string;
-  n700: string;
-  n800: string;
-  n900: string;
-  // Blues
-  b100: string;
-  b200: string;
-  b300: string;
-  b400: string;
-  b500: string;
-  b700: string;
-  b900: string;
-  // Greens
-  g100: string;
-  g200: string;
-  g300: string;
-  g500: string;
-  g700: string;
-  g900: string;
-  // Violets
-  v100: string;
-  v200: string;
-  v300: string;
-  v500: string;
-  v700: string;
-  v900: string;
-  // Oranges
-  o100: string;
-  o200: string;
-  o300: string;
-  o500: string;
-  o700: string;
-  o900: string;
-  // Yellows
-  y100: string;
-  y200: string;
-  y300: string;
-  y500: string;
-  y700: string;
-  y900: string;
-  // Reds
-  r100: string;
-  r200: string;
-  r300: string;
-  r500: string;
-  r700: string;
-  r900: string;
-  // Primary
-  p100: string;
-  p200: string;
-  p300: string;
-  p400: string;
-  p500: string;
-  p700: string;
-  p900: string;
-  // Misc
+  alert: string;
+  confirm: string;
+  notify: string;
+  background: string;
+  body: string;
+  border: string;
   shadow: string;
   overlay: string;
+  /**
+   * @deprecated Use `theme.colors.background` instead.
+   */
   bodyBg: string;
+  /**
+   * @deprecated Use `theme.colors.body` instead.
+   */
   bodyColor: string;
+  /**
+   * @deprecated Use `theme.colors.alert` instead.
+   */
   danger: string;
+  /**
+   * @deprecated Use `theme.colors.confirm` instead.
+   */
   success: string;
+  /**
+   * @deprecated Use `theme.colors.notify` instead.
+   */
   warning: string;
+
+  // Neutrals
+  /**
+   * @deprecated
+   */
+  n100: string;
+  /**
+   * @deprecated
+   */
+  n200: string;
+  /**
+   * @deprecated
+   */
+  n300: string;
+  /**
+   * @deprecated
+   */
+  n500: string;
+  /**
+   * @deprecated
+   */
+  n700: string;
+  /**
+   * @deprecated
+   */
+  n800: string;
+  /**
+   * @deprecated
+   */
+  n900: string;
+
+  // Blues
+  /**
+   * @deprecated
+   */
+  b100: string;
+  /**
+   * @deprecated
+   */
+  b200: string;
+  /**
+   * @deprecated
+   */
+  b300: string;
+  /**
+   * @deprecated
+   */
+  b400: string;
+  /**
+   * @deprecated
+   */
+  b500: string;
+  /**
+   * @deprecated
+   */
+  b700: string;
+  /**
+   * @deprecated
+   */
+  b900: string;
+
+  // Greens
+  /**
+   * @deprecated
+   */
+  g100: string;
+  /**
+   * @deprecated
+   */
+  g200: string;
+  /**
+   * @deprecated
+   */
+  g300: string;
+  /**
+   * @deprecated
+   */
+  g500: string;
+  /**
+   * @deprecated Use `theme.colors.confirm` instead.
+   */
+  g700: string;
+  /**
+   * @deprecated
+   */
+  g900: string;
+
+  // Violets
+  /**
+   * @deprecated
+   */
+  v100: string;
+  /**
+   * @deprecated
+   */
+  v200: string;
+  /**
+   * @deprecated
+   */
+  v300: string;
+  /**
+   * @deprecated
+   */
+  v500: string;
+  /**
+   * @deprecated
+   */
+  v700: string;
+  /**
+   * @deprecated
+   */
+  v900: string;
+
+  // Oranges
+  /**
+   * @deprecated
+   */
+  o100: string;
+  /**
+   * @deprecated
+   */
+  o200: string;
+  /**
+   * @deprecated
+   */
+  o300: string;
+  /**
+   * @deprecated
+   */
+  o500: string;
+  /**
+   * @deprecated
+   */
+  o700: string;
+  /**
+   * @deprecated
+   */
+  o900: string;
+
+  // Yellows
+  /**
+   * @deprecated
+   */
+  y100: string;
+  /**
+   * @deprecated
+   */
+  y200: string;
+  /**
+   * @deprecated
+   */
+  y300: string;
+  /**
+   * @deprecated
+   */
+  y500: string;
+  /**
+   * @deprecated
+   */
+  y700: string;
+  /**
+   * @deprecated
+   */
+  y900: string;
+
+  // Reds
+  /**
+   * @deprecated
+   */
+  r100: string;
+  /**
+   * @deprecated
+   */
+  r200: string;
+  /**
+   * @deprecated
+   */
+  r300: string;
+  /**
+   * @deprecated Use `theme.colors.alert` instead.
+   */
+  r500: string;
+  /**
+   * @deprecated
+   */
+  r700: string;
+  /**
+   * @deprecated
+   */
+  r900: string;
+
+  // Primary
+  /**
+   * @deprecated
+   */
+  p100: string;
+  /**
+   * @deprecated
+   */
+  p200: string;
+  /**
+   * @deprecated
+   */
+  p300: string;
+  /**
+   * @deprecated
+   */
+  p400: string;
+  /**
+   * @deprecated
+   */
+  p500: string;
+  /**
+   * @deprecated Use `theme.colors.primary` instead.
+   */
+  p700: string;
+  /**
+   * @deprecated
+   */
+  p900: string;
 };
 
 export type Spacings = {
@@ -180,7 +363,9 @@ export type ZIndex = {
   default: number;
   absolute: number;
   drawer: number;
-  // @deprecated use input value instead
+  /**
+   * @deprecated Use `theme.zIndex.input` instead.
+   */
   select: number;
   input: number;
   popover: number;

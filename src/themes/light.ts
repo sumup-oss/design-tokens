@@ -97,19 +97,23 @@ const primary = {
   p900: blues.b900,
 };
 
-const misc = {
+export const colors: Colors = {
+  primary: '#234BC3',
+  white,
+  black,
   shadow: 'rgba(12, 15, 20, 0.07)',
-  overlay: 'rgba(12, 15, 20, 0.21)',
+  overlay: 'rgba(26, 26, 26, 0.4)',
+  body: black,
+  background: '#FAFBFC',
+  border: neutrals.n200,
   bodyBg: '#FAFBFC',
   bodyColor: neutrals.n900,
+  alert: '#D23F47',
+  confirm: '#138849',
+  notify: '#F5C625',
   danger: '#D23F47',
   success: '#138849',
   warning: '#F5C625',
-};
-
-export const colors: Colors = {
-  white,
-  black,
   ...neutrals,
   ...blues,
   ...greens,
@@ -118,7 +122,6 @@ export const colors: Colors = {
   ...oranges,
   ...violets,
   ...primary,
-  ...misc,
 };
 
 export * from './shared';
