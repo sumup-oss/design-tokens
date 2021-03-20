@@ -17,6 +17,7 @@
     "build:es": "tsc",
     "build:cjs": "tsc --project tsconfig.cjs.json",
     "start": "tsc --watch",
+    "dev": "yarn start",
     "lint": "foundry run eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "yarn lint --fix",
     "lint:ci": "yarn lint --format junit -o __reports__/eslint-results.xml",

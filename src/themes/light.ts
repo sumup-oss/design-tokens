@@ -98,7 +98,6 @@ const primary = {
 };
 
 export const colors: Colors = {
-  primary: '#234BC3',
   white,
   black,
   shadow: 'rgba(12, 15, 20, 0.07)',

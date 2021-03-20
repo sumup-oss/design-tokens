@@ -15,7 +15,6 @@
 
 export type Colors = {
   // Semantic
-  primary: string;
   white: string;
   black: string;
   alert: string;
@@ -48,223 +47,79 @@ export type Colors = {
   warning: string;
 
   // Neutrals
-  /**
-   * @deprecated
-   */
   n100: string;
-  /**
-   * @deprecated
-   */
   n200: string;
-  /**
-   * @deprecated
-   */
   n300: string;
-  /**
-   * @deprecated
-   */
   n500: string;
-  /**
-   * @deprecated
-   */
   n700: string;
-  /**
-   * @deprecated
-   */
   n800: string;
-  /**
-   * @deprecated
-   */
   n900: string;
 
   // Blues
-  /**
-   * @deprecated
-   */
   b100: string;
-  /**
-   * @deprecated
-   */
   b200: string;
-  /**
-   * @deprecated
-   */
   b300: string;
-  /**
-   * @deprecated
-   */
   b400: string;
-  /**
-   * @deprecated
-   */
   b500: string;
-  /**
-   * @deprecated
-   */
   b700: string;
-  /**
-   * @deprecated
-   */
   b900: string;
 
   // Greens
-  /**
-   * @deprecated
-   */
   g100: string;
-  /**
-   * @deprecated
-   */
   g200: string;
-  /**
-   * @deprecated
-   */
   g300: string;
-  /**
-   * @deprecated
-   */
   g500: string;
   /**
    * @deprecated Use `theme.colors.confirm` instead.
    */
   g700: string;
-  /**
-   * @deprecated
-   */
   g900: string;
 
   // Violets
-  /**
-   * @deprecated
-   */
   v100: string;
-  /**
-   * @deprecated
-   */
   v200: string;
-  /**
-   * @deprecated
-   */
   v300: string;
-  /**
-   * @deprecated
-   */
   v500: string;
-  /**
-   * @deprecated
-   */
   v700: string;
-  /**
-   * @deprecated
-   */
   v900: string;
 
   // Oranges
-  /**
-   * @deprecated
-   */
   o100: string;
-  /**
-   * @deprecated
-   */
   o200: string;
-  /**
-   * @deprecated
-   */
   o300: string;
-  /**
-   * @deprecated
-   */
   o500: string;
-  /**
-   * @deprecated
-   */
   o700: string;
-  /**
-   * @deprecated
-   */
   o900: string;
 
   // Yellows
-  /**
-   * @deprecated
-   */
   y100: string;
-  /**
-   * @deprecated
-   */
   y200: string;
-  /**
-   * @deprecated
-   */
   y300: string;
   /**
-   * @deprecated
+   * @deprecated Use `theme.colors.notify` instead.
    */
   y500: string;
-  /**
-   * @deprecated
-   */
   y700: string;
-  /**
-   * @deprecated
-   */
   y900: string;
 
   // Reds
-  /**
-   * @deprecated
-   */
   r100: string;
-  /**
-   * @deprecated
-   */
   r200: string;
-  /**
-   * @deprecated
-   */
   r300: string;
   /**
    * @deprecated Use `theme.colors.alert` instead.
    */
   r500: string;
-  /**
-   * @deprecated
-   */
   r700: string;
-  /**
-   * @deprecated
-   */
   r900: string;
 
   // Primary
-  /**
-   * @deprecated
-   */
   p100: string;
-  /**
-   * @deprecated
-   */
   p200: string;
-  /**
-   * @deprecated
-   */
   p300: string;
-  /**
-   * @deprecated
-   */
   p400: string;
-  /**
-   * @deprecated
-   */
   p500: string;
-  /**
-   * @deprecated Use `theme.colors.primary` instead.
-   */
   p700: string;
-  /**
-   * @deprecated
-   */
   p900: string;
 };
 
